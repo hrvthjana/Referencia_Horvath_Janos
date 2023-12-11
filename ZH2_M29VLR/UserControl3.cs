@@ -16,7 +16,7 @@ namespace ZH2_M29VLR
 {
     public partial class UserControl3 : UserControl
     {
-       Models.MyContext context = new Models.MyContext();
+        Models.MyContext context = new Models.MyContext();
         public UserControl3()
         {
             InitializeComponent();
@@ -41,7 +41,7 @@ namespace ZH2_M29VLR
                                    select new
                                    {
                                        GroupedKey = grouped.Key,
-                                       Total = (double)grouped.Sum(x=>x.Sales)
+                                       Total = (double)grouped.Sum(x => x.Sales)
                                    };
 
                 foreach (var item in diagramQeery)

@@ -35,15 +35,15 @@
             lbCustomers = new ListBox();
             lbOrders = new ListBox();
             dataGridView1 = new DataGridView();
-            label2 = new Label();
-            sajatClassBindingSource = new BindingSource(components);
             customerNameDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             categoryDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             subCategoryDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             orderDateDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             shipDateDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             shipModeDataGridViewTextBoxColumn = new DataGridViewComboBoxColumn();
+            sajatClassBindingSource = new BindingSource(components);
             salesDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)sajatClassBindingSource).BeginInit();
             SuspendLayout();
@@ -52,7 +52,7 @@
             // 
             label1.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             label1.AutoSize = true;
-            label1.Location = new Point(720, 461);
+            label1.Location = new Point(938, 545);
             label1.Name = "label1";
             label1.Size = new Size(32, 15);
             label1.TabIndex = 0;
@@ -61,7 +61,7 @@
             // txtTotal
             // 
             txtTotal.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            txtTotal.Location = new Point(764, 458);
+            txtTotal.Location = new Point(982, 542);
             txtTotal.Name = "txtTotal";
             txtTotal.Size = new Size(100, 23);
             txtTotal.TabIndex = 1;
@@ -81,7 +81,7 @@
             lbCustomers.ItemHeight = 15;
             lbCustomers.Location = new Point(38, 78);
             lbCustomers.Name = "lbCustomers";
-            lbCustomers.Size = new Size(120, 319);
+            lbCustomers.Size = new Size(120, 394);
             lbCustomers.TabIndex = 3;
             lbCustomers.SelectedIndexChanged += lbCustomers_SelectedIndexChanged;
             // 
@@ -92,7 +92,7 @@
             lbOrders.ItemHeight = 15;
             lbOrders.Location = new Point(188, 78);
             lbOrders.Name = "lbOrders";
-            lbOrders.Size = new Size(120, 319);
+            lbOrders.Size = new Size(120, 394);
             lbOrders.TabIndex = 4;
             lbOrders.SelectedIndexChanged += lbOrders_SelectedIndexChanged;
             // 
@@ -106,21 +106,8 @@
             dataGridView1.Location = new Point(331, 81);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(545, 352);
+            dataGridView1.Size = new Size(763, 436);
             dataGridView1.TabIndex = 5;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(39, 28);
-            label2.Name = "label2";
-            label2.Size = new Size(40, 15);
-            label2.TabIndex = 6;
-            label2.Text = "Szűrés";
-            // 
-            // sajatClassBindingSource
-            // 
-            sajatClassBindingSource.DataSource = typeof(SajatClass);
             // 
             // customerNameDataGridViewTextBoxColumn
             // 
@@ -162,11 +149,24 @@
             shipModeDataGridViewTextBoxColumn.Resizable = DataGridViewTriState.True;
             shipModeDataGridViewTextBoxColumn.SortMode = DataGridViewColumnSortMode.Automatic;
             // 
+            // sajatClassBindingSource
+            // 
+            sajatClassBindingSource.DataSource = typeof(SajatClass);
+            // 
             // salesDataGridViewTextBoxColumn
             // 
             salesDataGridViewTextBoxColumn.DataPropertyName = "Sales";
             salesDataGridViewTextBoxColumn.HeaderText = "Sales";
             salesDataGridViewTextBoxColumn.Name = "salesDataGridViewTextBoxColumn";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(39, 28);
+            label2.Name = "label2";
+            label2.Size = new Size(40, 15);
+            label2.TabIndex = 6;
+            label2.Text = "Szűrés";
             // 
             // UserControl1
             // 
@@ -181,7 +181,7 @@
             Controls.Add(txtTotal);
             Controls.Add(label1);
             Name = "UserControl1";
-            Size = new Size(900, 499);
+            Size = new Size(1118, 583);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)sajatClassBindingSource).EndInit();
             ResumeLayout(false);

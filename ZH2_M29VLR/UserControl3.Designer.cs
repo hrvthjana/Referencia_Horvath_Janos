@@ -105,7 +105,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ControlDark;
+            BackColor = SystemColors.ControlLight;
             Controls.Add(radioYear);
             Controls.Add(radioSegment);
             Controls.Add(radioState);
