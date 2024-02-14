@@ -6,6 +6,7 @@ Az alkalmazás egy egyetemi munka kereteiben készült, részleges megoldást k�
 Az első UserControlon a vevőkre, és azok rendelései szűrve lehet lekérdezni a rendelés adatait, míg a második a vevők, és adaitaiknak az adatbázishoz való hozzáadására, valamint törlésére szolgál.
 A harmadik UserControl pedig adatvizualizációs célokat szolgál, itt az összes árbevétel oszlopdiagramjait lehet megtekinteni, van lehetőség különböző szempontok szerint csoportosítani azt.
 
+![-](ZH2_M29VLR/appbemutató.gif)
 
 
 
